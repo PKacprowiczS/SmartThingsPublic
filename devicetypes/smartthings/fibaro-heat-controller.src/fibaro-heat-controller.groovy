@@ -317,7 +317,7 @@ def sendEventToChild(event, forced = false) {
 }
 
 def configureChild() {
-	sendEventToChild(createEvent([name: "checkInterval", value: 6 * 60 * 60 + 36, displayed: false]))
+	sendEventToChild(createEvent(name: "DeviceWatch-Enroll", value: [protocol: "zwave", scheme:"untracked"].encodeAsJson(), displayed: false))
 }
 
 private refreshChild() {

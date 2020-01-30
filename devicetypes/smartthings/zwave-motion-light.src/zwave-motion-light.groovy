@@ -21,7 +21,7 @@ metadata {
 		capability "Health Check"
 		capability "Configuration"
 
-		fingerprint mfr: "0060", prod: "0012", model: "0001", deviceJoinName: "Everspring Outdoor Floodlight"
+		fingerprint mfr: "0060", prod: "0012", model: "0001", deviceJoinName: "Everspring Water leak sensor"
 	}
 
 	tiles(scale: 2) {
